@@ -5,6 +5,7 @@
 }
 
 /*Globsl color */
+
 :root { 
   --background-color: #ffffff; 
   --default-color: #272829; 
@@ -14,7 +15,12 @@
   --contrast-color: #ffffff; 
 }
 
+:root {
+    scroll-behavior: smooth;
+}
+
 /*Nav menu color */
+
 :root{
     --nav-color:#a8a9b4;
     --nav-hover-color: #ffffffff;
@@ -22,4 +28,28 @@
     --nav-dropdown-background-color: #040b14;
     --nav-dropdown-color:#a8a9b4;
     --nav-dropdown-hover-color: #ffffff;
+}
+
+/* General Styling & Shared Classes */
+
+body{
+    color: var(--default-color);
+    background-color: var(--background-color);
+    font-family: var(--default-font);
+}
+
+a{
+    color: var(--accent-color);
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+a:hover {
+    color: color-mix(in srgb, var(--accent-color), transparent 25%);
+    text-decoration: none;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    color: var(--heading-color);
+    font-family: var(--heading-color);
 }
