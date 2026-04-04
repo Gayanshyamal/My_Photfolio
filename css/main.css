@@ -53,3 +53,27 @@ h1,h2,h3,h4,h5,h6 {
     color: var(--heading-color);
     font-family: var(--heading-color);
 }
+
+/* Gloabal header */
+
+.header {
+    color: var(--default-color);
+    background-color: var(--background-color);
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    padding: 0 15px;
+    width: 300px;
+    transition: all ease-in-out 0.3s;
+    overflow-y: auto;
+    z-index: 997;
+    border-right: 1px solid color-mix(in srgb, var(--default-color), transparent 90%);
+}
+
+.header .profile-img img{
+    margin: 15px auto;
+    display: block;
+    width: 120px;
+    border: 8px solid color-mix(in srgb, var(--default-color), transparent 85%);
+}
