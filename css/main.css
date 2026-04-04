@@ -77,3 +77,44 @@ h1,h2,h3,h4,h5,h6 {
     width: 120px;
     border: 8px solid color-mix(in srgb, var(--default-color), transparent 85%);
 }
+
+.header .logo {
+    line-height: 1;
+    margin-bottom: 15px;
+}
+
+.header .logo img {
+    max-height: 32px;
+    margin-right: 8px;
+}
+
+.header .logo h1 {
+    font-size: 24px;
+    margin: 0;
+    font-weight: 700;
+    color: var(--heading-color);
+}
+
+.header .social-links {
+    margin: 0 0 20px 0;
+}
+
+.header .social-links a {
+    font-size: 16px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    background: color-mix(in srgb, var(--default-color), transparent 90%);
+    color: var(--default-color);
+    margin: 0 2px;
+    border-radius: 50%;
+    text-align: center;
+    width: 40px;
+    height: 40px;
+    transition: 0.3s;
+}
+
+.header .social-links a:hover {
+    color: var(--contrast-color);
+    background: var(--accent-color);
+}
