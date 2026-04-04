@@ -3,3 +3,12 @@
   --heading-font: "Raleway",  sans-serif;
   --nav-font: "Poppins",  sans-serif;
 }
+
+:root { 
+  --background-color: #ffffff; 
+  --default-color: #272829; 
+  --heading-color: #050d18; 
+  --accent-color: #149ddd; 
+  --surface-color: #ffffff; 
+  --contrast-color: #ffffff; 
+}
